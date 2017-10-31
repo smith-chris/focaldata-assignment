@@ -1,0 +1,25 @@
+@import 'colors'
+@import 'mixins'
+
+.InfoBubble
+  position: relative
+  background: $arsenic
+  height: 50px
+  width: 100%
+  padding: 0 20px
+  border-radius: 3px
+  box-sizing: border-box
+  display: flex
+  align-items: center
+  text-align: center
+  &:after
+    position: absolute
+    right: 35px
+    bottom: 0
+    transform: translateY(100%)
+    content: " "
+    @include triangle-bottom(10px, 7px, $arsenic)
+
+.text
+  margin: auto
+  color: white

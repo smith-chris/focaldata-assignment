@@ -6,7 +6,7 @@ let Button = props => {
   return (
     <button
       onClick={onClick}
-      className={styles.button}
+      className={styles.Button}
     >
       {text || 'Hello world!'}
     </button>
