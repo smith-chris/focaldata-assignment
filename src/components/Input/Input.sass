@@ -1,0 +1,31 @@
+@import 'styleguide'
+
+.Input
+  position: relative
+  color: gray
+  font-weight: bold
+  font-family: $ff-sans-2
+  font-size: 16px
+  &:before
+    content: "$"
+    display: block
+    position: absolute
+    left: 10px
+    top: 50%
+    transform: translateY(-50%)
+
+.element
+  border: $base-border
+  border-radius: 3px
+  height: 46px
+  padding: 0 23px
+  font-size: 18px
+  color: $arsenic
+  font-weight: bold
+  font-family: $ff-sans-2
+
+  // Remove arrows
+  -moz-appearance: textfield
+  &::-webkit-inner-spin-button, &::-webkit-outer-spin-button
+    -webkit-appearance: none
+    margin: 0
