@@ -4,6 +4,7 @@ import styles from './DonateCard.sass'
 import InfoBubble from 'components/InfoBubble'
 import ProgressBar from 'components/ProgressBar'
 import Input from 'components/Input'
+import Button from 'components/Button'
 
 let DonateCard = () => {
   return (
@@ -20,7 +21,16 @@ let DonateCard = () => {
             Join the <b>42</b> other donors who have already
             supported this project. Every dollar helps.
           </p>
-          <Input type='number'/>
+          <div className={styles.donateContainer}>
+            <Input
+              className={styles.donateInput}
+              type='number'
+            />
+            <Button
+              className={styles.donateButton}
+              text='Give Now'
+            />
+          </div>
         </div>
       </div>
     </div>

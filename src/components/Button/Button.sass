@@ -1,15 +1,15 @@
-@import 'colors'
+@import 'styleguide'
 
 .Button
   font-weight: bold
-  font-size: 16px
-  background: $dark-midnight-blue
-  color: $blond
-  border-radius: 200px
-  padding: 14px
-  margin: 10px
-  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5)
-  transition: all .5s
+  font-size: $font-size
+  font-family: $ff-sans
+  background: $wageningen-green
+  color: white
+  border-radius: $border-radius
+  padding: 0 14px
+  height: $input-height
+  transition: background .5s
+  text-align: center
   &:active
-    color: lighten($blond, 10%)
-    background: darken($dark-midnight-blue, 10%)
+    background: darken($wageningen-green, 10%)

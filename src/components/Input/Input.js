@@ -2,9 +2,9 @@ import React from 'react'
 import styles from './Input.sass'
 
 let Input = props => {
-  const {type = 'text'} = props
+  const {type = 'text', className} = props
   return (
-    <div className={styles.Input}>
+    <div className={[styles.Input, className].join(' ')}>
       <input
         type={type}
         className={styles.element}

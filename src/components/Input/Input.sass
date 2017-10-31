@@ -2,10 +2,12 @@
 
 .Input
   position: relative
+  display: inline-block
   color: gray
   font-weight: bold
+  height: $input-height
   font-family: $ff-sans-2
-  font-size: 16px
+  font-size: $font-size
   &:before
     content: "$"
     display: block
@@ -15,14 +17,20 @@
     transform: translateY(-50%)
 
 .element
+  width: 100%
+  height: 100%
+  box-sizing: border-box
   border: $base-border
-  border-radius: 3px
-  height: 46px
+  border-radius: $border-radius
   padding: 0 23px
   font-size: 18px
   color: $arsenic
   font-weight: bold
   font-family: $ff-sans-2
+  transition: border-color .5s
+
+  &:focus
+    border-color: $brand-color
 
   // Remove arrows
   -moz-appearance: textfield
