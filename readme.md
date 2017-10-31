@@ -1,8 +1,8 @@
-# React Starter
+# Focaldata assignment
 
- Unfancy React boilerplate project. Simple and good for beginners.
+ Solution to Focaldata interview test
  
- [![deps](https://david-dm.org/smith-chris/react-starter.svg)](https://david-dm.org/smith-chris/react-starter)
+ [![deps](https://david-dm.org/smith-chris/focaldata-assignment.svg)](https://david-dm.org/smith-chris/focaldata-assignment)
  [![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg)](http://standardjs.com)
  
 ## What's inside
@@ -38,8 +38,8 @@ and you will find compiled files in `/dist` directory.
 
 ## Support
 
-Please [open an issue](https://github.com/smith-chris/react-starter/issues/new) for support.
+Please [open an issue](https://github.com/smith-chris/focaldata-assignment/issues/new) for support.
 
 ## Contributing
 
-Please contribute using [Github Flow](https://guides.github.com/introduction/flow/). Create a branch, add commits, and [open a pull request](https://github.com/smith-chris/react-starter/compare).
+Please contribute using [Github Flow](https://guides.github.com/introduction/flow/). Create a branch, add commits, and [open a pull request](https://github.com/smith-chris/focaldata-assignment/compare).
