@@ -3,7 +3,7 @@
 .Input
   position: relative
   display: inline-block
-  color: gray
+  color: $placeholder-color
   font-weight: bold
   height: $input-height
   font-family: $ff-sans-2
@@ -31,6 +31,9 @@
 
   &:focus
     border-color: $brand-color
+
+  &::placeholder
+    color: $placeholder-color
 
   // Remove arrows
   -moz-appearance: textfield

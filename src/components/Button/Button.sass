@@ -4,12 +4,28 @@
   font-weight: bold
   font-size: $font-size
   font-family: $ff-sans
+  text-align: center
+  transition: background .5s
+  padding: 0 14px
+  border-radius: $border-radius
+
+.regular
+  font-size: $font-size-sm
+  height: 40px
+  background: $snow
+  color: $old-silver
+  border: $base-border
+  border-bottom-width: 2px
+  &:active
+    background-color: $border-color
+
+.cta
+  $cta-active-color: darken($wageningen-green, 5%)
+  font-size: $font-size + 1px
   background: $wageningen-green
   color: white
-  border-radius: $border-radius
-  padding: 0 14px
   height: $input-height
-  transition: background .5s
-  text-align: center
+  border: $border-size solid $cta-active-color
+  border-bottom-width: 2px
   &:active
-    background: darken($wageningen-green, 10%)
+    background: $cta-active-color

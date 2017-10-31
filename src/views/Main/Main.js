@@ -9,12 +9,10 @@ import {
   decrementCounter
 } from 'store/actions/counterActions'
 
-const Main = props => {
-  const {counter} = props
+const Main = () => {
   return (
     <div className={styles.main}>
       <DonateCard/>
-      <p>{counter}</p>
     </div>
   )
 }

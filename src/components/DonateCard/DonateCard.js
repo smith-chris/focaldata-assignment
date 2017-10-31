@@ -28,6 +28,7 @@ let DonateCard = () => {
             />
             <Button
               className={styles.donateButton}
+              theme='cta'
               text='Give Now'
             />
           </div>
@@ -38,6 +39,16 @@ let DonateCard = () => {
             Why give $50?
           </a>
         </div>
+      </div>
+      <div className={styles.bottomButtons}>
+        <Button
+          className={styles.bottomButton}
+          text='Save for later'
+        />
+        <Button
+          className={styles.bottomButton}
+          text='Tell your friends'
+        />
       </div>
     </div>
   )
