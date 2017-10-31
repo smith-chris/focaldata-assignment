@@ -1,11 +1,13 @@
 import React from 'react'
 import styles from './ProgressBar.sass'
 
-let ProgressBar = props => {
-  const {children} = props
+let ProgressBar = () => {
   return (
     <div className={styles.ProgressBar}>
-      {children}
+      <div
+        className={styles.bar}
+        style={{width: `${75}%`}}
+      />
     </div>
   )
 }
