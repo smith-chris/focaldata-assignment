@@ -7,6 +7,7 @@ let Input = props => {
     <div className={[styles.Input, className].join(' ')}>
       <input
         type={type}
+        placeholder='50'
         className={styles.element}
       />
     </div>

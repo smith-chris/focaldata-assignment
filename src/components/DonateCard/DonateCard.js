@@ -31,6 +31,12 @@ let DonateCard = () => {
               text='Give Now'
             />
           </div>
+          <a
+            className={styles.link}
+            href="#"
+          >
+            Why give $50?
+          </a>
         </div>
       </div>
     </div>
